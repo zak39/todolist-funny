@@ -1,0 +1,43 @@
+{
+  "name": "todolist-funny",
+  "version": "1.0.0",
+  "private": true,
+  "description": "It's a training todolist app with Vue",
+  "author": {
+    "name": "zak39",
+    "email": "fotia.baptiste@hotmail.com"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "_id": "todolist-funny@1.0.0",
+  "bugs": {
+    "url": "https://github.com/zak39/todolist-funny/issues"
+  },
+  "homepage": "https://github.com/zak39/todolist-funny#readme",
+  "license": "AGPL-3.0-or-later",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zak39/todolist-funny.git"
+  }
+}
