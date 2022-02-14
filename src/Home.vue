@@ -4,12 +4,17 @@
     v-for="task in tasks"
     :key="task.name"
     :taskName="task.name" />
-  <input
-    type="text"
-    class="createTask"
-    @keyup.enter="createTask"
-    v-model=taskName
-    placeholder="🌷 Jardiner" />
+  <div>
+    <input
+      type="text"
+      class="createTask"
+      @keyup.enter="createTask"
+      v-model=taskName
+      placeholder="🌷 Jardiner" />
+    <img
+      class="enter-key"
+      src="./assets/enter-key.svg" />
+  </div>
 </div>
 </template>
 
@@ -68,8 +73,17 @@ export default {
   text-align: left;
 }
 
-.createTask:focus{
+.createTask:focus {
   font-size: 15px;
+}
+
+.enter-key {
+  width: 20px;
+  margin-left: 5px;
+}
+
+.enter-key:hover {
+  width: 25px;
 }
 
 </style>
