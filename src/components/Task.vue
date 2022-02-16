@@ -6,7 +6,7 @@
       }"
       @click="toggleState">
       <span v-if="!isDone">👨‍🔧</span>
-      <span v-else>🎯</span>
+      <span v-else>❌</span>
       {{ taskName }}
     </li>
 </template>
@@ -31,7 +31,7 @@ export default {
 <style scoped>
 li {
   list-style: none;
-  border: 3px solid blue;
+  border: 1px solid #2596be;
   border-radius: 10px;
   width: 30vh;
   margin-bottom: 10px;
@@ -46,10 +46,13 @@ li:hover {
 }
 
 .taskIsWorking {
-  background-color: cyan;
+  background-color: #51abcb;
+  transition: 0.2s;
 }
 
 .taskIsDone {
   background-color: #165284;
+  border: 1px solid transparent;
+  transition: 0.2s;
 }
 </style>
