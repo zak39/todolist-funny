@@ -39,5 +39,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zak39/todolist-funny.git"
+  },
+  "engines": {
+    "node": "^16.0.0",
+    "npm": "^8.0.0"
   }
 }
